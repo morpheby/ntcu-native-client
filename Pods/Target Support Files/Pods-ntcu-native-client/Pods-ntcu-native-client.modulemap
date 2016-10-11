@@ -1,0 +1,6 @@
+framework module Pods_ntcu_native_client {
+  umbrella header "Pods-ntcu-native-client-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,918 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		F69B8E901DAC7A39005AFACB /* Versioning */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = F69B8E911DAC7A39005AFACB /* Build configuration list for PBXAggregateTarget "Versioning" */;
+			buildPhases = (
+				F69B8E941DAC7A3E005AFACB /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = Versioning;
+			productName = Versioning;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		C5CEA01F839DD4C8FFFF76EF /* Pods_ntcu_native_clientTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50CE443F6B07FBCC37394DAB /* Pods_ntcu_native_clientTests.framework */; };
+		D9DCB0D07413484D47C3345B /* Pods_ntcu_native_clientUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1676E1B5FF76F93C59DF08DF /* Pods_ntcu_native_clientUITests.framework */; };
+		E8BD109CADAA9C2D3CCF31BE /* Pods_ntcu_native_client.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 759A0A884CD781823F34C334 /* Pods_ntcu_native_client.framework */; };
+		F69B8E521DAC6CDB005AFACB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F69B8E511DAC6CDB005AFACB /* AppDelegate.swift */; };
+		F69B8E541DAC6CDB005AFACB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F69B8E531DAC6CDB005AFACB /* ViewController.swift */; };
+		F69B8E561DAC6CDB005AFACB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F69B8E551DAC6CDB005AFACB /* Assets.xcassets */; };
+		F69B8E591DAC6CDB005AFACB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F69B8E571DAC6CDB005AFACB /* Main.storyboard */; };
+		F69B8E641DAC6CDC005AFACB /* ntcu_native_clientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F69B8E631DAC6CDC005AFACB /* ntcu_native_clientTests.swift */; };
+		F69B8E6F1DAC6CDC005AFACB /* ntcu_native_clientUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F69B8E6E1DAC6CDC005AFACB /* ntcu_native_clientUITests.swift */; };
+		F69B8E881DAC755B005AFACB /* Observation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F69B8E871DAC755B005AFACB /* Observation.swift */; };
+		F69B8E8D1DAC7974005AFACB /* versionGen.sh in Resources */ = {isa = PBXBuildFile; fileRef = F69B8E8A1DAC7974005AFACB /* versionGen.sh */; };
+		F69B8E8E1DAC7974005AFACB /* Versioning.m in Sources */ = {isa = PBXBuildFile; fileRef = F69B8E8C1DAC7974005AFACB /* Versioning.m */; };
+		F69B8E9E1DAC95E4005AFACB /* Swiftz.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = F69B8E9D1DAC95E4005AFACB /* Swiftz.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F69B8E9F1DAC95F8005AFACB /* Swiftz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F69B8E9D1DAC95E4005AFACB /* Swiftz.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F69B8E601DAC6CDC005AFACB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F69B8E461DAC6CDB005AFACB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F69B8E4D1DAC6CDB005AFACB;
+			remoteInfo = "ntcu-native-client";
+		};
+		F69B8E6B1DAC6CDC005AFACB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F69B8E461DAC6CDB005AFACB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F69B8E4D1DAC6CDB005AFACB;
+			remoteInfo = "ntcu-native-client";
+		};
+		F69B8E951DAC7AA6005AFACB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F69B8E461DAC6CDB005AFACB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F69B8E901DAC7A39005AFACB;
+			remoteInfo = Versioning;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F69B8E9C1DAC95D5005AFACB /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				F69B8E9E1DAC95E4005AFACB /* Swiftz.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1676E1B5FF76F93C59DF08DF /* Pods_ntcu_native_clientUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ntcu_native_clientUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1ABC2CAB4026CD92BFA38A7C /* Pods-ntcu-native-clientUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ntcu-native-clientUITests.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-ntcu-native-clientUITests/Pods-ntcu-native-clientUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		50CE443F6B07FBCC37394DAB /* Pods_ntcu_native_clientTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ntcu_native_clientTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		759A0A884CD781823F34C334 /* Pods_ntcu_native_client.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ntcu_native_client.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A572FA41337EB41A8D1B8C8 /* Pods-ntcu-native-client.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ntcu-native-client.release.xcconfig"; path = "../Pods/Target Support Files/Pods-ntcu-native-client/Pods-ntcu-native-client.release.xcconfig"; sourceTree = "<group>"; };
+		9E7D3D665CD374B067753FF2 /* Pods-ntcu-native-clientTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ntcu-native-clientTests.release.xcconfig"; path = "../Pods/Target Support Files/Pods-ntcu-native-clientTests/Pods-ntcu-native-clientTests.release.xcconfig"; sourceTree = "<group>"; };
+		C91C792EDE6C3A9CD6D61B90 /* Pods-ntcu-native-clientTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ntcu-native-clientTests.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-ntcu-native-clientTests/Pods-ntcu-native-clientTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D88FAA11B6DB2B27A5B4F3D9 /* Pods-ntcu-native-clientUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ntcu-native-clientUITests.release.xcconfig"; path = "../Pods/Target Support Files/Pods-ntcu-native-clientUITests/Pods-ntcu-native-clientUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F69B8E4E1DAC6CDB005AFACB /* ntcu-native-client.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ntcu-native-client.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F69B8E511DAC6CDB005AFACB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F69B8E531DAC6CDB005AFACB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F69B8E551DAC6CDB005AFACB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F69B8E581DAC6CDB005AFACB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F69B8E5A1DAC6CDB005AFACB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F69B8E5F1DAC6CDC005AFACB /* ntcu-native-clientTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ntcu-native-clientTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F69B8E631DAC6CDC005AFACB /* ntcu_native_clientTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ntcu_native_clientTests.swift; sourceTree = "<group>"; };
+		F69B8E651DAC6CDC005AFACB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F69B8E6A1DAC6CDC005AFACB /* ntcu-native-clientUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ntcu-native-clientUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F69B8E6E1DAC6CDC005AFACB /* ntcu_native_clientUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ntcu_native_clientUITests.swift; sourceTree = "<group>"; };
+		F69B8E701DAC6CDC005AFACB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F69B8E871DAC755B005AFACB /* Observation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Observation.swift; sourceTree = "<group>"; };
+		F69B8E891DAC7973005AFACB /* ntcu-native-client-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ntcu-native-client-Bridging-Header.h"; sourceTree = "<group>"; };
+		F69B8E8A1DAC7974005AFACB /* versionGen.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = versionGen.sh; sourceTree = "<group>"; };
+		F69B8E8B1DAC7974005AFACB /* Versioning.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Versioning.h; sourceTree = "<group>"; };
+		F69B8E8C1DAC7974005AFACB /* Versioning.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Versioning.m; sourceTree = "<group>"; };
+		F69B8E971DAC7CF9005AFACB /* InfoPlist.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InfoPlist.h; sourceTree = "<group>"; };
+		F69B8E9D1DAC95E4005AFACB /* Swiftz.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Swiftz.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFC6E129E1A9E3AF17FDE249 /* Pods-ntcu-native-client.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ntcu-native-client.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-ntcu-native-client/Pods-ntcu-native-client.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F69B8E4B1DAC6CDB005AFACB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8BD109CADAA9C2D3CCF31BE /* Pods_ntcu_native_client.framework in Frameworks */,
+				F69B8E9F1DAC95F8005AFACB /* Swiftz.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F69B8E5C1DAC6CDC005AFACB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5CEA01F839DD4C8FFFF76EF /* Pods_ntcu_native_clientTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F69B8E671DAC6CDC005AFACB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9DCB0D07413484D47C3345B /* Pods_ntcu_native_clientUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		738AC2E690A08BB64BD676C7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FFC6E129E1A9E3AF17FDE249 /* Pods-ntcu-native-client.debug.xcconfig */,
+				8A572FA41337EB41A8D1B8C8 /* Pods-ntcu-native-client.release.xcconfig */,
+				C91C792EDE6C3A9CD6D61B90 /* Pods-ntcu-native-clientTests.debug.xcconfig */,
+				9E7D3D665CD374B067753FF2 /* Pods-ntcu-native-clientTests.release.xcconfig */,
+				1ABC2CAB4026CD92BFA38A7C /* Pods-ntcu-native-clientUITests.debug.xcconfig */,
+				D88FAA11B6DB2B27A5B4F3D9 /* Pods-ntcu-native-clientUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A933439DA9F21A0B568C7DD0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F69B8E9D1DAC95E4005AFACB /* Swiftz.framework */,
+				759A0A884CD781823F34C334 /* Pods_ntcu_native_client.framework */,
+				50CE443F6B07FBCC37394DAB /* Pods_ntcu_native_clientTests.framework */,
+				1676E1B5FF76F93C59DF08DF /* Pods_ntcu_native_clientUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F69B8E451DAC6CDB005AFACB = {
+			isa = PBXGroup;
+			children = (
+				F69B8E7C1DAC6D45005AFACB /* Sources */,
+				F69B8E7D1DAC6D58005AFACB /* support */,
+				F69B8E621DAC6CDC005AFACB /* ntcu-native-clientTests */,
+				F69B8E6D1DAC6CDC005AFACB /* ntcu-native-clientUITests */,
+				F69B8E4F1DAC6CDB005AFACB /* Products */,
+				738AC2E690A08BB64BD676C7 /* Pods */,
+				A933439DA9F21A0B568C7DD0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F69B8E4F1DAC6CDB005AFACB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F69B8E4E1DAC6CDB005AFACB /* ntcu-native-client.app */,
+				F69B8E5F1DAC6CDC005AFACB /* ntcu-native-clientTests.xctest */,
+				F69B8E6A1DAC6CDC005AFACB /* ntcu-native-clientUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F69B8E621DAC6CDC005AFACB /* ntcu-native-clientTests */ = {
+			isa = PBXGroup;
+			children = (
+				F69B8E631DAC6CDC005AFACB /* ntcu_native_clientTests.swift */,
+				F69B8E651DAC6CDC005AFACB /* Info.plist */,
+			);
+			path = "ntcu-native-clientTests";
+			sourceTree = "<group>";
+		};
+		F69B8E6D1DAC6CDC005AFACB /* ntcu-native-clientUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F69B8E6E1DAC6CDC005AFACB /* ntcu_native_clientUITests.swift */,
+				F69B8E701DAC6CDC005AFACB /* Info.plist */,
+			);
+			path = "ntcu-native-clientUITests";
+			sourceTree = "<group>";
+		};
+		F69B8E7C1DAC6D45005AFACB /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				F69B8E831DAC6F85005AFACB /* app */,
+				F69B8E851DAC7053005AFACB /* core */,
+				F69B8E841DAC701A005AFACB /* presentation */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		F69B8E7D1DAC6D58005AFACB /* support */ = {
+			isa = PBXGroup;
+			children = (
+				F69B8E8A1DAC7974005AFACB /* versionGen.sh */,
+			);
+			path = support;
+			sourceTree = "<group>";
+		};
+		F69B8E7E1DAC6D62005AFACB /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				F69B8E5A1DAC6CDB005AFACB /* Info.plist */,
+				F69B8E571DAC6CDB005AFACB /* Main.storyboard */,
+				F69B8E551DAC6CDB005AFACB /* Assets.xcassets */,
+				F69B8E971DAC7CF9005AFACB /* InfoPlist.h */,
+			);
+			path = resources;
+			sourceTree = "<group>";
+		};
+		F69B8E7F1DAC6D6A005AFACB /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = controllers;
+			sourceTree = "<group>";
+		};
+		F69B8E801DAC6D7B005AFACB /* views */ = {
+			isa = PBXGroup;
+			children = (
+				F69B8E531DAC6CDB005AFACB /* ViewController.swift */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		F69B8E811DAC6D80005AFACB /* models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		F69B8E821DAC6E6D005AFACB /* main */ = {
+			isa = PBXGroup;
+			children = (
+				F69B8E8B1DAC7974005AFACB /* Versioning.h */,
+				F69B8E8C1DAC7974005AFACB /* Versioning.m */,
+				F69B8E891DAC7973005AFACB /* ntcu-native-client-Bridging-Header.h */,
+				F69B8E511DAC6CDB005AFACB /* AppDelegate.swift */,
+			);
+			path = main;
+			sourceTree = "<group>";
+		};
+		F69B8E831DAC6F85005AFACB /* app */ = {
+			isa = PBXGroup;
+			children = (
+				F69B8E821DAC6E6D005AFACB /* main */,
+				F69B8E7E1DAC6D62005AFACB /* resources */,
+				F69B8E861DAC7529005AFACB /* utils */,
+			);
+			path = app;
+			sourceTree = "<group>";
+		};
+		F69B8E841DAC701A005AFACB /* presentation */ = {
+			isa = PBXGroup;
+			children = (
+				F69B8E7F1DAC6D6A005AFACB /* controllers */,
+				F69B8E801DAC6D7B005AFACB /* views */,
+			);
+			path = presentation;
+			sourceTree = "<group>";
+		};
+		F69B8E851DAC7053005AFACB /* core */ = {
+			isa = PBXGroup;
+			children = (
+				F69B8E811DAC6D80005AFACB /* models */,
+			);
+			path = core;
+			sourceTree = "<group>";
+		};
+		F69B8E861DAC7529005AFACB /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				F69B8E871DAC755B005AFACB /* Observation.swift */,
+			);
+			path = utils;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F69B8E4D1DAC6CDB005AFACB /* ntcu-native-client */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F69B8E731DAC6CDC005AFACB /* Build configuration list for PBXNativeTarget "ntcu-native-client" */;
+			buildPhases = (
+				F96796C9B3A1C059E0B56DDE /* [CP] Check Pods Manifest.lock */,
+				F69B8E4A1DAC6CDB005AFACB /* Sources */,
+				F69B8E4B1DAC6CDB005AFACB /* Frameworks */,
+				F69B8E4C1DAC6CDB005AFACB /* Resources */,
+				513780FCC7ADF8458A096D5A /* [CP] Embed Pods Frameworks */,
+				CABF33A2F36A6721B4B06C19 /* [CP] Copy Pods Resources */,
+				F69B8E9C1DAC95D5005AFACB /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F69B8E961DAC7AA6005AFACB /* PBXTargetDependency */,
+			);
+			name = "ntcu-native-client";
+			productName = "ntcu-native-client";
+			productReference = F69B8E4E1DAC6CDB005AFACB /* ntcu-native-client.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F69B8E5E1DAC6CDC005AFACB /* ntcu-native-clientTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F69B8E761DAC6CDC005AFACB /* Build configuration list for PBXNativeTarget "ntcu-native-clientTests" */;
+			buildPhases = (
+				2467C1A4F39A1FCB1E9A3F60 /* [CP] Check Pods Manifest.lock */,
+				F69B8E5B1DAC6CDC005AFACB /* Sources */,
+				F69B8E5C1DAC6CDC005AFACB /* Frameworks */,
+				F69B8E5D1DAC6CDC005AFACB /* Resources */,
+				DA7ACD93F6020FB35E33FDD4 /* [CP] Embed Pods Frameworks */,
+				79B1AEE634FAD422FEEB7793 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F69B8E611DAC6CDC005AFACB /* PBXTargetDependency */,
+			);
+			name = "ntcu-native-clientTests";
+			productName = "ntcu-native-clientTests";
+			productReference = F69B8E5F1DAC6CDC005AFACB /* ntcu-native-clientTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F69B8E691DAC6CDC005AFACB /* ntcu-native-clientUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F69B8E791DAC6CDC005AFACB /* Build configuration list for PBXNativeTarget "ntcu-native-clientUITests" */;
+			buildPhases = (
+				336281E0C8CFCBDFB7BF60EB /* [CP] Check Pods Manifest.lock */,
+				F69B8E661DAC6CDC005AFACB /* Sources */,
+				F69B8E671DAC6CDC005AFACB /* Frameworks */,
+				F69B8E681DAC6CDC005AFACB /* Resources */,
+				BEB59E77A3F950DDB72D9BAE /* [CP] Embed Pods Frameworks */,
+				FB88BC9D10090D18209F6BAE /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F69B8E6C1DAC6CDC005AFACB /* PBXTargetDependency */,
+			);
+			name = "ntcu-native-clientUITests";
+			productName = "ntcu-native-clientUITests";
+			productReference = F69B8E6A1DAC6CDC005AFACB /* ntcu-native-clientUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F69B8E461DAC6CDB005AFACB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = morpheby;
+				TargetAttributes = {
+					F69B8E4D1DAC6CDB005AFACB = {
+						CreatedOnToolsVersion = 8.0;
+						LastSwiftMigration = 0800;
+						ProvisioningStyle = Automatic;
+					};
+					F69B8E5E1DAC6CDC005AFACB = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F69B8E4D1DAC6CDB005AFACB;
+					};
+					F69B8E691DAC6CDC005AFACB = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F69B8E4D1DAC6CDB005AFACB;
+					};
+					F69B8E901DAC7A39005AFACB = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = F69B8E491DAC6CDB005AFACB /* Build configuration list for PBXProject "ntcu-native-client" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F69B8E451DAC6CDB005AFACB;
+			productRefGroup = F69B8E4F1DAC6CDB005AFACB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F69B8E4D1DAC6CDB005AFACB /* ntcu-native-client */,
+				F69B8E5E1DAC6CDC005AFACB /* ntcu-native-clientTests */,
+				F69B8E691DAC6CDC005AFACB /* ntcu-native-clientUITests */,
+				F69B8E901DAC7A39005AFACB /* Versioning */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F69B8E4C1DAC6CDB005AFACB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F69B8E561DAC6CDB005AFACB /* Assets.xcassets in Resources */,
+				F69B8E591DAC6CDB005AFACB /* Main.storyboard in Resources */,
+				F69B8E8D1DAC7974005AFACB /* versionGen.sh in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F69B8E5D1DAC6CDC005AFACB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F69B8E681DAC6CDC005AFACB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2467C1A4F39A1FCB1E9A3F60 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		336281E0C8CFCBDFB7BF60EB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		513780FCC7ADF8458A096D5A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-ntcu-native-client/Pods-ntcu-native-client-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		79B1AEE634FAD422FEEB7793 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-ntcu-native-clientTests/Pods-ntcu-native-clientTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BEB59E77A3F950DDB72D9BAE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-ntcu-native-clientUITests/Pods-ntcu-native-clientUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CABF33A2F36A6721B4B06C19 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-ntcu-native-client/Pods-ntcu-native-client-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DA7ACD93F6020FB35E33FDD4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-ntcu-native-clientTests/Pods-ntcu-native-clientTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F69B8E941DAC7A3E005AFACB /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "mkdir -p ${PROJECT_DERIVED_FILE_DIR}\nPREFIX=XC PROJECT_DIR=`pwd`/.. ./support/versionGen.sh ${PROJECT_DERIVED_FILE_DIR}/Version.h\n";
+		};
+		F96796C9B3A1C059E0B56DDE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FB88BC9D10090D18209F6BAE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-ntcu-native-clientUITests/Pods-ntcu-native-clientUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F69B8E4A1DAC6CDB005AFACB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F69B8E541DAC6CDB005AFACB /* ViewController.swift in Sources */,
+				F69B8E881DAC755B005AFACB /* Observation.swift in Sources */,
+				F69B8E521DAC6CDB005AFACB /* AppDelegate.swift in Sources */,
+				F69B8E8E1DAC7974005AFACB /* Versioning.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F69B8E5B1DAC6CDC005AFACB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F69B8E641DAC6CDC005AFACB /* ntcu_native_clientTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F69B8E661DAC6CDC005AFACB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F69B8E6F1DAC6CDC005AFACB /* ntcu_native_clientUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F69B8E611DAC6CDC005AFACB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F69B8E4D1DAC6CDB005AFACB /* ntcu-native-client */;
+			targetProxy = F69B8E601DAC6CDC005AFACB /* PBXContainerItemProxy */;
+		};
+		F69B8E6C1DAC6CDC005AFACB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F69B8E4D1DAC6CDB005AFACB /* ntcu-native-client */;
+			targetProxy = F69B8E6B1DAC6CDC005AFACB /* PBXContainerItemProxy */;
+		};
+		F69B8E961DAC7AA6005AFACB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F69B8E901DAC7A39005AFACB /* Versioning */;
+			targetProxy = F69B8E951DAC7AA6005AFACB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F69B8E571DAC6CDB005AFACB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F69B8E581DAC6CDB005AFACB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F69B8E711DAC6CDC005AFACB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "${PROJECT_DERIVED_FILE_DIR}";
+				INFOPLIST_PREPROCESS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F69B8E721DAC6CDC005AFACB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "${PROJECT_DERIVED_FILE_DIR}";
+				INFOPLIST_PREPROCESS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		F69B8E741DAC6CDC005AFACB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FFC6E129E1A9E3AF17FDE249 /* Pods-ntcu-native-client.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/Sources/app/resources/Info.plist";
+				INFOPLIST_OTHER_PREPROCESSOR_FLAGS = "-I${PROJECT_DERIVED_FILE_DIR}";
+				INFOPLIST_PREFIX_HEADER = Sources/app/resources/InfoPlist.h;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "by.morphe.ntcu-native-client";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Sources/app/main/ntcu-native-client-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		F69B8E751DAC6CDC005AFACB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A572FA41337EB41A8D1B8C8 /* Pods-ntcu-native-client.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/Sources/app/resources/Info.plist";
+				INFOPLIST_OTHER_PREPROCESSOR_FLAGS = "-I${PROJECT_DERIVED_FILE_DIR}";
+				INFOPLIST_PREFIX_HEADER = Sources/app/resources/InfoPlist.h;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "by.morphe.ntcu-native-client";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Sources/app/main/ntcu-native-client-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		F69B8E771DAC6CDC005AFACB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C91C792EDE6C3A9CD6D61B90 /* Pods-ntcu-native-clientTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "ntcu-native-clientTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "by.morphe.ntcu-native-clientTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ntcu-native-client.app/Contents/MacOS/ntcu-native-client";
+			};
+			name = Debug;
+		};
+		F69B8E781DAC6CDC005AFACB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E7D3D665CD374B067753FF2 /* Pods-ntcu-native-clientTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "ntcu-native-clientTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "by.morphe.ntcu-native-clientTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ntcu-native-client.app/Contents/MacOS/ntcu-native-client";
+			};
+			name = Release;
+		};
+		F69B8E7A1DAC6CDC005AFACB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1ABC2CAB4026CD92BFA38A7C /* Pods-ntcu-native-clientUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "ntcu-native-clientUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "by.morphe.ntcu-native-clientUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "ntcu-native-client";
+			};
+			name = Debug;
+		};
+		F69B8E7B1DAC6CDC005AFACB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D88FAA11B6DB2B27A5B4F3D9 /* Pods-ntcu-native-clientUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "ntcu-native-clientUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "by.morphe.ntcu-native-clientUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "ntcu-native-client";
+			};
+			name = Release;
+		};
+		F69B8E921DAC7A39005AFACB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F69B8E931DAC7A39005AFACB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F69B8E491DAC6CDB005AFACB /* Build configuration list for PBXProject "ntcu-native-client" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F69B8E711DAC6CDC005AFACB /* Debug */,
+				F69B8E721DAC6CDC005AFACB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F69B8E731DAC6CDC005AFACB /* Build configuration list for PBXNativeTarget "ntcu-native-client" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F69B8E741DAC6CDC005AFACB /* Debug */,
+				F69B8E751DAC6CDC005AFACB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F69B8E761DAC6CDC005AFACB /* Build configuration list for PBXNativeTarget "ntcu-native-clientTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F69B8E771DAC6CDC005AFACB /* Debug */,
+				F69B8E781DAC6CDC005AFACB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F69B8E791DAC6CDC005AFACB /* Build configuration list for PBXNativeTarget "ntcu-native-clientUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F69B8E7A1DAC6CDC005AFACB /* Debug */,
+				F69B8E7B1DAC6CDC005AFACB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F69B8E911DAC7A39005AFACB /* Build configuration list for PBXAggregateTarget "Versioning" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F69B8E921DAC7A39005AFACB /* Debug */,
+				F69B8E931DAC7A39005AFACB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F69B8E461DAC6CDB005AFACB /* Project object */;
+}

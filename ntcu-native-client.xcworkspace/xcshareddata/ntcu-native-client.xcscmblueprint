@@ -1,0 +1,44 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "CEBD62F71422A805B2AC7D56A6FAD6983BBC5614",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "7223C7E92BC783A3AF9FD0A080ABC45CDBC1DCB8" : 9223372036854775807,
+    "53964F28C4CCA0826677C9F951DD3F64C20326C4" : 9223372036854775807,
+    "39C07F1822062044696C292623848404D8A25E25" : 9223372036854775807,
+    "CEBD62F71422A805B2AC7D56A6FAD6983BBC5614" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "4940BD46-CC05-4D50-A7D2-D38DEAB4A4B0",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "7223C7E92BC783A3AF9FD0A080ABC45CDBC1DCB8" : "",
+    "53964F28C4CCA0826677C9F951DD3F64C20326C4" : "ntcu-native-client\/swiftz\/Carthage\/Checkouts\/SwiftCheck\/",
+    "39C07F1822062044696C292623848404D8A25E25" : "ntcu-native-client\/swiftz\/",
+    "CEBD62F71422A805B2AC7D56A6FAD6983BBC5614" : "ntcu-native-client\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "ntcu-native-client",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "ntcu-native-client.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:morpheby\/swiftz.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "39C07F1822062044696C292623848404D8A25E25"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/typelift\/SwiftCheck.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "53964F28C4CCA0826677C9F951DD3F64C20326C4"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:morpheby\/ntc-u.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "7223C7E92BC783A3AF9FD0A080ABC45CDBC1DCB8"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:morpheby\/ntcu-native-client.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "CEBD62F71422A805B2AC7D56A6FAD6983BBC5614"
+    }
+  ]
+}

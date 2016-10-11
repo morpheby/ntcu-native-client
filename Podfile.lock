@@ -1,0 +1,37 @@
+PODS:
+  - CustomSegue (2.0.0)
+  - PathKit (0.7.0)
+  - PromiseKit (4.0.3):
+    - PromiseKit/Foundation (= 4.0.3)
+    - PromiseKit/QuartzCore (= 4.0.3)
+    - PromiseKit/UIKit (= 4.0.3)
+  - PromiseKit/CorePromise (4.0.3)
+  - PromiseKit/Foundation (4.0.3):
+    - PromiseKit/CorePromise
+  - PromiseKit/QuartzCore (4.0.3):
+    - PromiseKit/CorePromise
+  - PromiseKit/UIKit (4.0.3):
+    - PromiseKit/CorePromise
+  - Stencil (0.6.0):
+    - PathKit (~> 0.7.0)
+  - SwiftGen (3.0.0)
+  - Upsurge (0.8.0)
+
+DEPENDENCIES:
+  - CustomSegue
+  - PromiseKit (~> 4.0)
+  - Stencil
+  - SwiftGen
+  - Upsurge
+
+SPEC CHECKSUMS:
+  CustomSegue: 3fcc304a1f658559f1a1da3c3721c214a7e49352
+  PathKit: f8260c3e41bf4d552f3603853e32a5b325a176d4
+  PromiseKit: dfe8fcc6445674fb23378d89990838c1cbdbf05a
+  Stencil: c665353046bca0279f3503f88293f2eff5fc67a6
+  SwiftGen: f679cd0ed4173a5da3b01efd0da23542bf82f6ab
+  Upsurge: 614412863a3b5470b31636a004654b6ef3a34f47
+
+PODFILE CHECKSUM: 2ad309963f225f42ba5f4ff1243c96357b5aad70
+
+COCOAPODS: 1.1.0.rc.2
