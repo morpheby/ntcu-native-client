@@ -35,6 +35,8 @@
 		F69B8E8E1DAC7974005AFACB /* Versioning.m in Sources */ = {isa = PBXBuildFile; fileRef = F69B8E8C1DAC7974005AFACB /* Versioning.m */; };
 		F69B8E9E1DAC95E4005AFACB /* Swiftz.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = F69B8E9D1DAC95E4005AFACB /* Swiftz.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		F69B8E9F1DAC95F8005AFACB /* Swiftz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F69B8E9D1DAC95E4005AFACB /* Swiftz.framework */; };
+		F69B8EA11DB089E3005AFACB /* Intro.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F69B8EA01DB089E3005AFACB /* Intro.storyboard */; };
+		F69B8EA51DB08E51005AFACB /* NtcDefaultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F69B8EA41DB08E51005AFACB /* NtcDefaultView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -102,6 +104,8 @@
 		F69B8E8C1DAC7974005AFACB /* Versioning.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Versioning.m; sourceTree = "<group>"; };
 		F69B8E971DAC7CF9005AFACB /* InfoPlist.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InfoPlist.h; sourceTree = "<group>"; };
 		F69B8E9D1DAC95E4005AFACB /* Swiftz.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Swiftz.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F69B8EA01DB089E3005AFACB /* Intro.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Intro.storyboard; sourceTree = "<group>"; };
+		F69B8EA41DB08E51005AFACB /* NtcDefaultView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NtcDefaultView.swift; sourceTree = "<group>"; };
 		FFC6E129E1A9E3AF17FDE249 /* Pods-ntcu-native-client.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ntcu-native-client.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-ntcu-native-client/Pods-ntcu-native-client.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -224,6 +228,7 @@
 				F69B8E571DAC6CDB005AFACB /* Main.storyboard */,
 				F69B8E551DAC6CDB005AFACB /* Assets.xcassets */,
 				F69B8E971DAC7CF9005AFACB /* InfoPlist.h */,
+				F69B8EA01DB089E3005AFACB /* Intro.storyboard */,
 			);
 			path = resources;
 			sourceTree = "<group>";
@@ -239,6 +244,7 @@
 			isa = PBXGroup;
 			children = (
 				F69B8E531DAC6CDB005AFACB /* ViewController.swift */,
+				F69B8EA41DB08E51005AFACB /* NtcDefaultView.swift */,
 			);
 			path = views;
 			sourceTree = "<group>";
@@ -423,6 +429,7 @@
 				F69B8E561DAC6CDB005AFACB /* Assets.xcassets in Resources */,
 				F69B8E591DAC6CDB005AFACB /* Main.storyboard in Resources */,
 				F69B8E8D1DAC7974005AFACB /* versionGen.sh in Resources */,
+				F69B8EA11DB089E3005AFACB /* Intro.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -602,6 +609,7 @@
 				F69B8E881DAC755B005AFACB /* Observation.swift in Sources */,
 				F69B8E521DAC6CDB005AFACB /* AppDelegate.swift in Sources */,
 				F69B8E8E1DAC7974005AFACB /* Versioning.m in Sources */,
+				F69B8EA51DB08E51005AFACB /* NtcDefaultView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
