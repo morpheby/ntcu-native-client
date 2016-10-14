@@ -30,3 +30,13 @@ target 'ntcu-native-client' do
   end
 
 end
+
+# Fix as per https://github.com/CocoaPods/CocoaPods/issues/5334#issuecomment-223444937
+post_install do |installer|
+  installer.pods_project.targets.each do |target|
+    target.build_configurations.each do |config|
+      config.build_settings['CONFIGURATION_BUILD_DIR'] = '$PODS_CONFIGURATION_BUILD_DIR'
+    end
+  end
+end
+
